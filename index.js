@@ -1,7 +1,7 @@
 // GLOBALS -------------------------------------------
 const inquirer = require('inquirer');
 const fs = require('fs');
-const readmeStruct = require('./readme');
+const readmeStruct = require('./readmeStruct');
 
 const testAnswers = {
     userName: "UserTest",
@@ -11,7 +11,8 @@ const testAnswers = {
     dependencies: "Test dependencies",
     tests: "test data test",
     github: "github.com",
-    otherInfo: "example.email.com",
+    otherInfo: "other test example info",
+    email: "example.email.com"
 };
 
 // Tech stack choices
@@ -76,11 +77,13 @@ const questions = [
         message: "Enter other relevant information:\n"
     },
     {
+        // test data input
         type: "input",
         name: "tests",
         message: "Input tests\n"
     },
     {
+        // dependencies input
         type: "input",
         name: "dependencies",
         message: "Enter dependencies:\n"
@@ -120,6 +123,6 @@ const runPrompt = () => {
 }
 
 // function call
-// runPrompt();
+runPrompt();
 
-assignAnswers(testAnswers);
+// assignAnswers(testAnswers);
