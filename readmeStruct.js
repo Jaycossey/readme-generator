@@ -7,7 +7,7 @@ const readmeStruct = (answers) => {
 
     // assign tech stack badges
     answers.techStack.forEach((item) => {
-        techStackBadges.push(`>![Language Badge](https://img.shields.io/badge/Language-${item}-gray)\n`);
+        techStackBadges.push(`>![Language Badge](https://img.shields.io/badge/Language-${item}-green)\n`);
     });
 
     return (
@@ -15,15 +15,15 @@ const readmeStruct = (answers) => {
 
 ## Contents
 
-[Description](#Description)
-[Tech Stack](#TechStack)
-[Dependencies](#Dependencies)
-[Tests](#Testing)
-[Contributions](#Contributions)
-[Author](#Author)
-(Other Information)[#Info]
-(Support)[#Contact]
-(License)[#License]
+- [Description](#Description)
+- [Tech Stack](#TechStack)
+- [Dependencies](#Dependencies)
+- [Tests](#Testing)
+- [Contributions](#Contributions)
+- [Author](#Author)
+- [Other Information](#Info)
+- [Support](#Contact)
+- [License](#License)
 
 ## Description
 
@@ -50,7 +50,7 @@ const readmeStruct = (answers) => {
 <a name="Contributions"></a>
 > Please visit: ${answers.github}
 
-### Author
+## Author
 
 <a name="Author"></a>
 > ${answers.userName}

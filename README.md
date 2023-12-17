@@ -2,27 +2,27 @@
 
 ## Contents
 
-[Description](#Description)
-[Tech Stack](#TechStack)
-[Dependencies](#Dependencies)
-[Tests](#Testing)
-[Contributions](#Contributions)
-[Author](#Author)
-(Other Information)[#Info]
-(Support)[#Contact]
-(License)[#License]
+- [Description](#Description)
+- [Tech Stack](#TechStack)
+- [Dependencies](#Dependencies)
+- [Tests](#Testing)
+- [Contributions](#Contributions)
+- [Author](#Author)
+- [Other Information](#Info)
+- [Support](#Contact)
+- [License](#License)
 
 ## Description
 
 <a name="Description"></a>
-> Program written in Javascript to automate README file generation for projects.
+> JavaScript program to automate README file generation.
 
 ## Tech Stack
 
 <a name="TechStack"></a>
-> ![Language Badge](https://img.shields.io/badge/Language-JavaScript-gray)
-,![Language Badge](https://img.shields.io/badge/Language-NodeJS-gray)
-,![Language Badge](https://img.shields.io/badge/Language-npm-gray)
+> >![Language Badge](https://img.shields.io/badge/Language-JavaScript-green)
+,>![Language Badge](https://img.shields.io/badge/Language-NodeJS-green)
+,>![Language Badge](https://img.shields.io/badge/Language-npm-green)
 
 
 ## Dependencies
@@ -33,14 +33,14 @@
 ## Testing
 
 <a name="Testing"></a>
-> 
+> N/A
 
 ## Contributions
 
 <a name="Contributions"></a>
-> Please visit: https://github.com/Jaycossey/readme-generator
+> Please visit: https://github.com/Jaycossey
 
-### Author
+## Author
 
 <a name="Author"></a>
 > Jaycossey
@@ -48,7 +48,7 @@
 ## Other Information
 
 <a name="Info"></a>
-> User creates README following a series of prompts in the terminal.
+> 
 
 ### Usage
 Usage: node index.js
